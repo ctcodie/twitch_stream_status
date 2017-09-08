@@ -1,0 +1,103 @@
+.wrapper {
+  background-image: url("http://lorempixel.com/1680/1050/city/");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1000px;
+}
+
+.centrecontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+h1, h3 {
+  font-family: verdana;
+}
+
+#channelBar {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.link {
+  font-size: 25px;
+  color: #66CC75;
+}
+
+.link:hover {
+  color: #76ed86;
+}
+
+.stream {
+  padding: 10px;
+}
+
+.oops {
+  border: 5px solid #d3d3d3;
+}
+
+.noname {
+  font-size: 25px;
+  color: #66CC75;
+}
+
+.online {
+  border: 5px solid #66CC75;
+}
+
+.offline {
+  border: 5px solid #adadad;
+}
+
+.pull-right {
+  text-align: right;
+}
+
+p {
+  font-size: 18px;
+}
+
+input {
+  background-color: #ababab;
+  border: 2px solid #66CC75;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+button {
+  padding: 5px 10px 5px 10px;
+  background-color: #66CC75;
+  color: adadad;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: #76ed86;
+  border: 2px solid black;
+}
+
+button:click {
+  background-color: #76ed86;
+  border: 2px solid black;
+}
+
+.hidden {
+  display: none;
+}
